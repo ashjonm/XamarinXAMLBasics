@@ -10,7 +10,7 @@ namespace BasicXaml
         {
             InitializeComponent();
 
-            MainPage = new NewPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

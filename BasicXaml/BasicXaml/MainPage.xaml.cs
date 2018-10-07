@@ -7,6 +7,20 @@ namespace BasicXaml
         public MainPage()
         {
             InitializeComponent();
+
+            Button button = new Button
+            {
+                Text = "Nagivate!",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+            };
+
+            button.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushAsync(new NewPage());
+            };
+
+            Content = button;
         }
     }
 }
