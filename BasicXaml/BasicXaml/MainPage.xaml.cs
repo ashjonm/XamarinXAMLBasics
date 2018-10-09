@@ -17,7 +17,7 @@ namespace BasicXaml
 
             button.Clicked += async (sender, args) =>
             {
-                await Navigation.PushAsync(new XAMLPlusCode());
+                await Navigation.PushAsync(new Grid());
             };
 
             Content = button;
