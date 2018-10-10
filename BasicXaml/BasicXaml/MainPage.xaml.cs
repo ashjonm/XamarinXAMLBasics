@@ -17,7 +17,7 @@ namespace BasicXaml
 
             button.Clicked += async (sender, args) =>
             {
-                await Navigation.PushAsync(new Grid());
+                await Navigation.PushAsync(new AbsoluteLayoutxaml());
             };
 
             Content = button;
