@@ -2,13 +2,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:BasicXaml"
-             x:Class="BasicXaml.MainPage">
+             x:Class="BasicXaml.MainPage"
+             Title="Main Menu">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Hello World Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToNewPage"/>
+        <Button Text="Stacked Action Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToStackedDemo"/>
+        <Button Text="Absolute Layout Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToAbsoluteDemo"/>
+        <Button Text="Relative Layout Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToRelativeDemo"/>
+        <Button Text="Grid Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToGridDemo"/>
     </StackLayout>
 
 </ContentPage>

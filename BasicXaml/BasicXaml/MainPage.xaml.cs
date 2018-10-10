@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace BasicXaml
 {
@@ -7,20 +8,30 @@ namespace BasicXaml
         public MainPage()
         {
             InitializeComponent();
+        }
+        async void GoToNewPage(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new NewPage());
+        }
 
-            Button button = new Button
-            {
-                Text = "Nagivate!",
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center,
-            };
+        async void GoToStackedDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new XAMLPlusCode());
+        }
 
-            button.Clicked += async (sender, args) =>
-            {
-                await Navigation.PushAsync(new RelativeLayoutDemo());
-            };
+        async void GoToAbsoluteDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new AbsoluteLayoutxaml());
+        }
 
-            Content = button;
+        async void GoToRelativeDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new RelativeLayoutDemo());
+        }
+
+        async void GoToGridDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Grid());
         }
     }
 }
