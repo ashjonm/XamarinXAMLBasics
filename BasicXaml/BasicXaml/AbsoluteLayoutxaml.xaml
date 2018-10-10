@@ -37,5 +37,29 @@
                  AbsoluteLayout.LayoutBounds="0.67, 1, 0.25, 0.25"
                  AbsoluteLayout.LayoutFlags="All" />
 
+        <BoxView Color="Yellow"
+                 AbsoluteLayout.LayoutBounds="0.5, 1, 0.25, 0.25"
+                 AbsoluteLayout.LayoutFlags="All" />
+
+        <BoxView Color="Black"
+                 AbsoluteLayout.LayoutBounds="0.5, 1, 0.01, 0.005"
+                 AbsoluteLayout.LayoutFlags="All" />
+
+        <BoxView Color="Green"
+                 AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.25, 0.25"
+                 AbsoluteLayout.LayoutFlags="All" />
+
+        <BoxView Color="Black"
+                 AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.01, 0.005"
+                 AbsoluteLayout.LayoutFlags="All" />
+
+        <BoxView Color="Orange"
+                 AbsoluteLayout.LayoutBounds=".9, .9, 0.25, 0.25"
+                 AbsoluteLayout.LayoutFlags="All" />
+
+        <BoxView Color="Black"
+                 AbsoluteLayout.LayoutBounds="0.9, 0.9, 0.01, 0.005"
+                 AbsoluteLayout.LayoutFlags="All" />
+
     </AbsoluteLayout>
 </ContentPage>
