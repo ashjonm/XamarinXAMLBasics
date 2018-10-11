@@ -26,6 +26,10 @@
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 Clicked="GoToGridDemo"/>
+        <Button Text="View2View Binding Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToViewBindingDemo"/>
     </StackLayout>
 
 </ContentPage>

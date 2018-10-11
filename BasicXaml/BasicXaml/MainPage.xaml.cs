@@ -33,5 +33,10 @@ namespace BasicXaml
         {
             await Navigation.PushAsync(new Grid());
         }
+
+        async void GoToViewBindingDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ViewViewBindingDemo());
+        }
     }
 }
