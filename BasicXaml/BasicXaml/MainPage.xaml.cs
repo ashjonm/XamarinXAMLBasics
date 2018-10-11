@@ -38,5 +38,10 @@ namespace BasicXaml
         {
             await Navigation.PushAsync(new ViewViewBindingDemo());
         }
+
+        async void GoToSimpleMVVMDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new SimpleMVVM());
+        }
     }
 }

@@ -30,6 +30,10 @@
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 Clicked="GoToViewBindingDemo"/>
+        <Button Text="Simple MVVM Demo"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="GoToSimpleMVVMDemo"/>
     </StackLayout>
 
 </ContentPage>
