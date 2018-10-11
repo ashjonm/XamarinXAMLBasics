@@ -43,5 +43,10 @@ namespace BasicXaml
         {
             await Navigation.PushAsync(new SimpleMVVM());
         }
+
+        async void GoToClockDemo(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ClockDemo());
+        }
     }
 }
